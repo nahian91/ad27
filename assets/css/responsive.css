@@ -1,0 +1,175 @@
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .container{
+        width: 970px;
+    }
+    .menu {
+        width: 790px;
+    }
+    .about-img {
+        width: 290px;
+    }
+    .about-content {
+        width: 650px;
+    }
+    .single-feature {
+        width: 325px;
+    }
+    .single-service, .single-team {
+        width: 303px;
+    }
+    .single-project {
+        width: 323px;
+    }
+    .single-statistics {
+        width: 242px;
+    }
+    .single-price {
+        width: 313px;
+        margin-right: 15px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .container{
+        width: 750px;
+    }
+    .logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .menu {
+        width: 100%;
+    }
+    .menu ul {
+        text-align: center;
+    }
+    .about-img {
+        width: 100%;
+        text-align: center;
+    }
+    .about-img img {
+        max-width: 350px;
+    }
+    .about-content {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .single-feature {
+        width: 375px;
+    }
+    .single-service {
+        width: 360px;
+    }
+    .single-service:nth-child(2), .single-service:nth-child(4) {
+        margin-right: 0;
+    }
+    .single-service:nth-child(3){
+        margin-right: 30px;
+    }
+    .single-project {
+        width: 375px;
+        padding-top: 50%;
+    }
+    .single-statistics {
+        width: 187px;
+    }
+    .single-statistics h4 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .single-price {
+        padding: 10px;
+        width: 240px;
+        margin-right: 15px;
+    }
+    .single-price ul li {
+        font-size: 14px;
+    }
+    .single-team {
+        width: 230px;
+    }
+    .team-content h4 {
+        text-transform: capitalize;
+        font-size: 18px;
+    }
+    .team-content h4 span{
+        font-size: 14px;
+    }
+    .single-blog {
+        width: 230px;
+    }
+    .contact-form {
+        width: 380px;
+    }
+    .contact-info {
+        width: 340px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .container{
+        width: 350px;
+    }
+    .logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .menu{
+        display: none;
+    }
+    .menu ul{
+        text-align: center;
+    }
+    .menu ul li {
+        display: block;
+    }
+    .contact-form, .contact-info, .menu, .about-content, .single-feature, .single-service {
+        width: 100%;
+    }
+    .banner-area {
+        padding: 350px 0 200px;
+        height: auto;
+    }
+    .banner h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .banner h4 {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+    .single-project {
+        width: 100%;
+        padding-top: 100%;
+    }
+    .single-statistics {
+        width: 175px;
+        margin-bottom: 60px;
+    }
+
+    .timeline::after, .timeline li::after {
+        left: 0;
+    }
+    .timeline li .timeline-content {
+        width: 90%;
+        text-align: left;
+        margin-left: 30px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .timeline li:nth-child(2n) .timeline-content {
+        float: left;
+    }
+    .timeline li:first-child .timeline-content{
+        margin-top: 0;
+    }
+    .timeline li:last-child .timeline-content{
+        margin-bottom: 0;
+    }
+    .single-price {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
