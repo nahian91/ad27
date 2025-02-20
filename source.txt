@@ -1,10 +1,4 @@
-
-Figma
+jQuery
 ---
 
-
-
-Professional Project 
-----
-
-Client -> UI/UX Designer -> Front End Developer
+JavaScript Library
